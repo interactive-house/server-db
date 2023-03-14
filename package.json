@@ -1,0 +1,18 @@
+{
+  "name": "smarthometesting",
+  "version": "1.0.0",
+  "description": "test the web with firebase",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js"
+    
+  },
+  "author": "malek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase": "^9.17.1",
+    "nodemon": "^2.0.20"
+  }
+}
