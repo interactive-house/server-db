@@ -1,3 +1,13 @@
+/**
+ 
+This server is our initial implementaion and tries to test
+the lamp on/off opereration.
+
+It is currently held as our backup plan for our current backend infrastructure
+using backend.
+
+ */
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
