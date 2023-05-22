@@ -2,6 +2,12 @@ const express = require("express");
 const router = express.Router();
 
 // Define routes for /, /door, /window, and /lamp APIs
+
+/*
+
+The following features will be implemented later.
+
+
 function getRoutes(io) {
   router.get("/", function (req, res) {
     console.log("Request received at /:");
@@ -17,6 +23,9 @@ function getRoutes(io) {
     console.log("Request received at /window:");
     res.send(`This is the window API.`);
   });
+
+
+*/
 
   router.get("/lamp/on", function (req, res) {
     console.log("Request received at /lamp: on");

@@ -1,3 +1,11 @@
+/**
+ 
+Currently this document is on hold. This is for a more sofisticated scalabiltiy so we tried to keep the 
+apis on different files.
+
+
+ */
+
 const express = require("express");
 const router = express.Router();
 

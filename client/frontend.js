@@ -1,3 +1,11 @@
+/**
+ * This is a test of front end javascript file
+ * It tries to connect to the server and open a socket communication
+ * It succesfully makes a connection and commincated data with the server on lamp on/Off
+ * This was developed before the project meeting one for testing
+ */
+
+
 // Connect to Socket.io server
 const socket = io();
 
